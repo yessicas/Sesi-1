@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 
 @DefaultUrl("https://www.facebook.com")
 public class FacebookLoginPage extends PageObject {
+
     @FindBy(id="email")
     WebElement fieldEmail;
     public void inputEmail(){
